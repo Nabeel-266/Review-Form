@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Personal.css">
+
+    <!-- font-awesome-Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- For Font-families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nova+Round&family=Poppins:wght@200;400;500;600;700;800;900&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bar">
+        <div class="step-01">
+            <a href="../Account/account.html">
+            <h2>Step 01: ACCOUNT</h2>
+            </a>
+        </div>
+        <div class="step-02">
+            <a href="#">
+                <h2>Step 02: PERSONAL DETAILS</h2>
+            </a>
+        </div>
+        <div class="step-03">
+            <a href="../Review/review.html">
+                <h2>Step 03: YOUR REVIEW</h2>
+            </a>
+        </div>
+    </div>
+
+    <form action="#">
+        <fieldset>
+            <h1>&nbsp;PERSONAL DETAILS</h1>
+
+            <label for="firstname" class="firstname">First Name:</label><br>
+            <input type="text" name="firstname" class="firstname-input" placeholder="Enter Your First Name" required>
+            <br>
+
+            <label for="lastname" class="lastname">Last Name:</label><br>
+            <input type="text" name="lastname" class="lastname-input" placeholder="Enter Your Last Name"  required>
+            <br>
+
+            <label for="CNIC" class="cnic">Your CNIC:</label><br>
+            <input type="number" name="CNIC" class="cnic-input" pattern="^[0-9]{5}-[0-9]{7}-[0-9]{1}$" placeholder="12345-1234567-1">
+            <br>
+
+            <label for="social-link" class="social-link">Social Link:</label><br>
+            <input type="url" name="social-link" class="social-link-input" placeholder="Enter Your Facebook/Linkedin Profile Link"  required>
+            <br>
+
+
+            <div class="button">
+                <div class="btn-back">
+                    <a href="../Account/account.html"><i class="fa-solid fa-arrow-left"></i></a>
+                    <h4>BACK</h4>
+                </div>
+
+                <div class="btn-next">
+                    <h4>NEXT</h4>
+                    <a href="../Review/review.html"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

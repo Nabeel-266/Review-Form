@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="account.css">
+
+    <!-- font-awesome-Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- For Font-families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nova+Round&family=Poppins:wght@200;400;500;600;700;800;900&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bar">
+        <div class="step-01">
+            <a href="#">
+            <h2>Step 01: ACCOUNT</h2>
+            </a>
+        </div>
+        <div class="step-02">
+            <a href="../Personal/Personal.html">
+                <h2>Step 02: PERSONAL DETAILS</h2>
+            </a>
+        </div>
+        <div class="step-03">
+            <a href="../Review/review.html">
+                <h2>Step 03: YOUR REVIEW</h2>
+            </a>
+        </div>
+    </div>
+
+    <form action="#">
+        <fieldset>
+            <h1>&nbsp;ACCOUNT</h1>
+
+            <label for="email" class="email">Email Address:</label><br>
+            <input type="email" name="email" class="email-input" placeholder="Enter Your Email" required>
+            <br>
+
+            <label for="password" class="password">Password:</label><br>
+            <input type="password" name="password" class="password-input" placeholder="Enter Your Password" minlength="8" maxlength="15" required>
+            <br>
+
+            <label for="confirm-password" class="confirm-password">Confirm Password:</label><br>
+            <input type="password" name="confirm-password" class="confirm-password-input" placeholder="Enter Your Confirm Password" minlength="8" maxlength="15" required>
+
+            <div class="button">
+                <div class="btn-back">
+                    <a href="../Index/Index.html"><i class="fa-solid fa-arrow-left"></i></a>
+                    <h4>BACK</h4>
+                </div>
+
+                <div class="btn-next">
+                    <h4>NEXT</h4>
+                    <a href="../Personal/Personal.html"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

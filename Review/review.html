@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="review.css">
+
+    <!-- font-awesome-Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- For Font-families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nova+Round&family=Poppins:wght@200;400;500;600;700;800;900&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bar">
+        <div class="step-01">
+            <a href="../Account/account.html">
+            <h2>Step 01: ACCOUNT</h2>
+            </a>
+        </div>
+        <div class="step-02">
+            <a href="../Personal/Personal.html">
+                <h2>Step 02: PERSONAL DETAILS</h2>
+            </a>
+        </div>
+        <div class="step-03">
+            <a href="#">
+                <h2>Step 03: YOUR REVIEW</h2>
+            </a>
+        </div>
+    </div>
+
+    <form action="#">
+        <fieldset>
+            <h1>&nbsp;YOUR REVIEW</h1>
+
+            <label for="hear about us" class="hear">How did you hear about us ?</label>
+            <select name="social websites" class="hear-select">
+                <option value="select" class="hear-option" selected>Select your option</option>
+                <option value="facebook" class="hear-option">Facebook</option>
+                <option value="youtube" class="hear-option">Youtube</option>
+                <option value="twitter" class="hear-option">Twitter</option>
+            </select>
+            <br>
+
+            <label for="visit again" class="visit">Would You Visit Again ?</label><br>
+            <div class="visited">
+                <input type="radio" name="visit" value="yes" class="visit-input" checked><p>YES</p>
+                <input type="radio" name="visit" value="no" class="visit-input"><p>NO</p>
+                <input type="radio" name="visit" value="maybe" class="visit-input"><p>MAY BE</p>
+            </div>
+
+            <label for="comments" class="comments">Comments:</label><br>
+            <textarea name="comments" id="textarea" class="textarea" cols="40" rows="5" placeholder="Enter Your Comments Here"></textarea>
+            <br>
+
+            <label for="documents" class="document">Documents:</label><br>
+            <input type="file" name="document" class="document-input">
+            <br>
+
+            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+            <label for="checkbox" class="signme">Sign me up for email updates</label>
+
+            <div class="button">
+                <div class="btn-back">
+                    <a href="../Personal/Personal.html"><i class="fa-solid fa-arrow-left"></i></a>
+                    <h4>BACK</h4>
+                </div>
+
+                <div class="btn-submit">
+                    <a href="../Index/Index.html">
+                        <h4>SUBMIT</h4>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </a> 
+                </div>
+            </div>
+
+        </fieldset>
+    </form>    
+</body>
+</html>
